@@ -26,8 +26,12 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xIU-cS-web">
-                                <rect key="frame" x="87" y="333" width="240" height="230"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" preservesSuperviewLayoutMargins="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xIU-cS-web">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="847"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="xIU-cS-web" secondAttribute="height" multiplier="413:230" id="18I-Xu-XmR"/>
+                                    <constraint firstAttribute="width" constant="414" id="rL1-Ya-gnl"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
